@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual envs
+.venv/
+env/
+nlp/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model checkpoints (fine-tuned weights)
+empathetic-dialogpt-medium/
+*.bin
+*.pt
+*.ckpt
+
+# HF / datasets cache if ever inside repo
+.cache/
+data/
